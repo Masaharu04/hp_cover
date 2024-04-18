@@ -12,17 +12,7 @@
     margin: 0px;
 }
 
-/*===== Colores =====*/
-:root{
-    --first-color: #E83F36;
-    --white-color: #FAFAFF;
-    --dark-color:  #2A3B47;
-    --text-color:  #503404;
-    --red-color:   #E83F36;
-    --oreng-color: #EF862C;
-    --green-color: #68B72E;
-    --black-color: #000000;
-}
+
 .div{
     display: block;
 }
