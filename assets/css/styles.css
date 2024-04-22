@@ -19,20 +19,18 @@
 /*===== HEDDER =====*/
 .heder-main{
     display: flex;
-    height: 160px;
+    height: 80px;
     padding: 15px 54px 20px 40px;
     background-color: #fff;
     text-align: left;
+    justify-content: space-between;
 
 
 }
 .heder-main-l{
     justify-content: flex-end;
 }
-.heder-comp{
 
-
-}
 .heder-comp-a{
     display: block;
     font-size: 13px;
@@ -43,61 +41,92 @@
 
 .heder-info{
     display: flex;
-    background-color: #e5b81d;
-
-
+    padding-right: 0px;
 }
+.heder-info-a{
+    text-align: center;
+}
+
+.tele{
+    
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.tele2{
+    font-size: 12px;
+}
+
 .heder-info-button{
    display: flex;
-   display: -webkit-box;
-   display: -ms-flexbox;
-   -webkit-box-pack: justify;
    justify-content: space-between; 
 
-  
+}
+.heder-info-tele{
+
+    padding: 0px;
 }
 
 .item{
-    padding: 0.5em 1em;
-    /*margin: 2em 0;*/
-    font-weight: bold;
-    border: solid 1px #000000;
-
-    list-style: none;
     font-family: YakuHanJP, YuGothic, "Yu Gothic", Meiryo, sans-serif;
     font-weight: bold;
+
+    font-size: 12px;
+    line-height: 29px;
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 0 8px;
+
+
+    
 }
 
 .heder-button{
     display: flex;
        
 }
-
 .box1{
-    padding: 0.5em 1em;
-    margin: 2em 0;
+    padding-right: 15px;
+}
+
+.box1-1{
+    
     background-color: #e5b81d;
 
     line-height: 74px;
     display: block;
     text-align: center;
-
     color: #fff;
+    width: 260px;
+
+   
 }
-.box2{
-    padding: 0.5em 1em;
-    margin: 2em 0;
+
+.box2-2{
+    
+ 
     background-color: #F22E2E;
 
     line-height: 74px;
     display: block;
     text-align: center;
     color: #fff;
+    width: 260px;
 }
 
 .nav__list{
     display: flex;
-    
+    justify-content: flex-end;
+
+    font-family: YakuHanJP, YuGothic, "Yu Gothic", Meiryo, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 39px;
+}
+.nav__item{
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
 }
 
 /* ===== MEDIA QUERIES =====*/
