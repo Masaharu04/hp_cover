@@ -41,26 +41,24 @@
 
 .heder-info{
     display: flex;
-    padding-right: 0px;
+   
 }
 .heder-info-a{
     text-align: center;
 }
 
 .tele{
-    
+    text-align: right;
     font-weight: bold;
     font-size: 21px;
 }
 
 .tele2{
+    
     font-size: 12px;
 }
 
 .heder-info-button{
-   display: flex;
-   justify-content: space-between; 
-
 }
 .heder-info-tele{
 
@@ -75,58 +73,51 @@
     line-height: 29px;
     display: inline-block;
     border: 1px solid #000;
-    padding: 0 8px;
-
-
-    
+    padding: 0 8px;    
 }
 
 .heder-button{
     display: flex;
+    margin-left: 16px;
        
 }
 .box1{
     padding-right: 15px;
 }
-
 .box1-1{
-    
     background-color: #e5b81d;
-
     line-height: 74px;
     display: block;
     text-align: center;
     color: #fff;
     width: 260px;
-
-   
 }
-
 .box2-2{
-    
- 
     background-color: #F22E2E;
-
     line-height: 74px;
     display: block;
     text-align: center;
     color: #fff;
     width: 260px;
 }
-
 .nav__list{
     display: flex;
     justify-content: flex-end;
-
     font-family: YakuHanJP, YuGothic, "Yu Gothic", Meiryo, sans-serif;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
     padding-right: 39px;
+}
+.nav__items{
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
 }
 .nav__item{
     padding-left: 15px;
     padding-right: 15px;
     list-style: none;
+    border-left: 1px solid #acacac;
 }
 
 /* ===== MEDIA QUERIES =====*/
