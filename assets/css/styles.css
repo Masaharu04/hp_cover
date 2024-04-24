@@ -6,13 +6,10 @@
     --header-height: 3rem;
     --font-medium: 500;
 }
-
 * {
     padding: 0px;
     margin: 0px;
 }
-
-
 .div{
     display: block;
 }
@@ -24,13 +21,10 @@
     background-color: #fff;
     text-align: left;
     justify-content: space-between;
-
-
 }
 .heder-main-l{
     justify-content: flex-end;
 }
-
 .heder-comp-a{
     display: block;
     font-size: 13px;
@@ -38,48 +32,35 @@
     font-family: YakuHanJP, YuGothic, "Yu Gothic", Meiryo, sans-serif;
     font-weight: bold;
 }
-
 .heder-info{
     display: flex;
-   
 }
 .heder-info-a{
     text-align: center;
 }
-
 .tele{
     text-align: right;
     font-weight: bold;
     font-size: 21px;
 }
-
 .tele2{
-    
-    font-size: 12px;
-}
-
-.heder-info-button{
+   font-size: 12px;
 }
 .heder-info-tele{
-
     padding: 0px;
 }
-
 .item{
     font-family: YakuHanJP, YuGothic, "Yu Gothic", Meiryo, sans-serif;
     font-weight: bold;
-
     font-size: 12px;
     line-height: 29px;
     display: inline-block;
     border: 1px solid #000;
     padding: 0 8px;    
 }
-
 .heder-button{
     display: flex;
     margin-left: 16px;
-       
 }
 .box1{
     padding-right: 15px;
@@ -99,6 +80,10 @@
     text-align: center;
     color: #fff;
     width: 260px;
+}
+.heder-list{
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 .nav__list{
     display: flex;
@@ -120,11 +105,5 @@
     border-left: 1px solid #acacac;
 }
 
-/* ===== MEDIA QUERIES =====*/
-/* For small devices */
-@media screen and (max-width: 430px) {
-  .home__img {
-    width: 550px;
-    right: -100px;
-  }
-}
+/* ===== MAIN =====*/
+
