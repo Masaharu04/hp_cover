@@ -143,13 +143,9 @@
 }
 /*===== COSE =====*/
 .main-cose{
-    margin-left: 58px;
-    margin-right: 58px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding: 50px;
-
-}
-.cose-box-w{
-   
 }
 .cose-top{
    display: flex;
@@ -163,7 +159,9 @@
     text-align: center;
 }
 .cose{
+    flex-wrap: wrap; /* 画面幅に合わせてカラム落ちさせる */
     display: flex;
+   
 }
 .cose-title1{
     font-size: 15px;
@@ -175,7 +173,9 @@
     height: 213px;
     border: 4px solid #eeeeee;
     background-color: #fff;
-   
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .detail{
     display: flexs;
@@ -218,3 +218,42 @@
     background-color: #f0f0f0;
     text-align: center;
 }
+.fotter-main{
+    max-height: 218px;
+}
+.fotter-img{
+    max-height: 200px;
+}
+.fotter-list{
+    display: flex;
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* 画面の幅いっぱいに広がる */
+    height: 200px; /* 高さは200pxに固定 */
+  }
+
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* 黒色で半透明の背景 */
+    z-index: 2; /* オーバーレイを前面に配置 */
+    display: flex;
+    justify-content: center; /* 中央に水平整列 */
+    align-items: center; /* 中央に垂直整列 */
+    color: white; /* テキストの色を白に設定 */
+    font-size: 24px; /* テキストのサイズ */
+    font-weight: bold; /* フォントの太さ */
+  }
+
+  .full-width-img {
+    width: 100%; /* 画面の幅いっぱいに広がる */
+    height: 200px; /* 高さは200pxに固定 */
+    object-fit: cover; /* アスペクト比を保ちつつ、指定した領域にフィットさせる */
+    position: relative;
+    z-index: 1; /* 画像を背面に配置 */
+  }
