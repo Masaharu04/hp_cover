@@ -1,309 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"
-    integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- ===== CSS ===== -->
-  <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-  <!-- ===== BOX ICONS ===== -->
-  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-  <title>Portfolio responsive complete</title>
-</head>
-
-<body>
-  <!--===== HEADER =====-->
-  <header class="l-header">
-    <nav class="nav bd-grid">
-      <div class="heder-main">
-
-        <div class="heder-comp">
-          <a class="heder-comp-a">中学生・高校生のためのIT・プログラミング教室・スクール</a>
-          <img src="assets/img/logo.jpg" width="246" height="47" class="mian_logo">
-        </div>
-        <div class="heder-info">
-          <div class="heder-info-a">
-            <ul class="heder-info-button">
-              <li class="item">マイページ ログイン</li>
-              <li class="item">お問い合わせ</li>
-            </ul>
-            <div class="heder-info-tele">
-              <div class="tele">03-5877-4879</div>
-              <a class="tele2">平日 10:00 〜 17:00</a>
-            </div>
-          </div>
-          <div class="heder-button">
-            <div class="box1">
-              <div class="box1-1">
-                <a>無料体験・説明会</a>
-
-              </div>
-            </div>
-            <div class="box2">
-              <div class="box2-2">
-                <a>お申し込みはこちら</a>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="heder-list">
-        <ul class="nav__list">
-          <li class="nav__items">スクールについて</li>
-          <li class="nav__item">コース</li>
-          <li class="nav__item">会場・スケジュール</li>
-          <li class="nav__item">お申し込みの流れ・料金</li>
-          <li class="nav__item">卒業生の声</li>
-          <li class="nav__item">参加者の声</li>
-          <li class="nav__item">保護者の声</li>
-          <li class="nav__item">スタッフ紹介</li>
-          <li class="nav__item">よくある質問</li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <main class="l-main">
-    <!--===== MAIN =====-->
-    <div class="main-home">
-      <picture>
-        <source srcset="./assets/img/home.webp" media="(min-width: 767px)">
-        <source srcset="./assets/img/sp.webp" media="(max-width: 766px)">
-        <img src="./assets/sp.png" class="main-img">
-      </picture>
-    </div>
-    <div class="main-top-ms-txt">
-      <li class="li-1">Life is Tech! TOP</li>
-      <li class="li-1">プログラミング教室・スクール</li>
-      <li class="li-1">コース</li>
-    </div>
-    <div class="main-top-text">
-      <h1 class="main-top-text-h1">きみの好きを、スキルに。</h1>
-    </div>
-
-    <div class=""></div>
-    <!--===== COSE =====-->
-    <div class="main-cose">
-      <div class="cose-title">
-        以下の7つのコースから好きなコースをご選択いただけます。
-      </div>
-
-      <div class="cose">
-
-        <div class="cose-box">
-          <div class="cose-box-w">
-            <div class="cose-top">
-              <img src="assets/img/ai.png" width="60" height="55" class="cose-img">
-              <div class="cose-title1">AIクリエイティブ<br>コース</div>
-            </div>
-            <div class="detail">
-
-              <dl class="a">
-                <dt class="a-a">難易度</dt>
-                <dd class="b-b">★★☆☆☆</dd>
-              </dl>
-              <dl class="b">
-                <dt class="a-a">対象</dt>
-                <dd class="b-b">13歳以上の方</dd>
-              </dl>
-            </div>
-            <div class="left">
-              <img src="assets/img/left.png" width="10" height="10" class="leftimg">
-            </div>
-          </div>
-        </div>
-
-        <div class="cose-box">
-          <div class="cose-box-w">
-            <div class="cose-top">
-              <img src="assets/img/ip.png" width="39" height="64" class="cose-img">
-              <div class="cose-title1">iPhoneアプリ<br>プログラミングコース</div>
-            </div>
-            <div class="detail">
-
-              <dl class="a">
-                <dt class="a-a">難易度</dt>
-                <dd class="b-b">★☆☆☆☆</dd>
-              </dl>
-              <dl class="b">
-                <dt class="a-a">対象</dt>
-                <dd class="b-b">全員</dd>
-              </dl>
-            </div>
-            <div class="left">
-              <img src="assets/img/left.png" width="10" height="10" class="leftimg">
-            </div>
-          </div>
-        </div>
-
-        <div class="cose-box">
-          <div class="cose-box-w">
-            <div class="cose-top">
-              <img src="assets/img/an.png" width="60" height="55" class="cose-img">
-              <div class="cose-title1">Androidアプリ<br>プログラミングコース</div>
-            </div>
-            <div class="detail">
-
-              <dl class="a">
-                <dt class="a-a">難易度</dt>
-                <dd class="b-b">★☆☆☆☆</dd>
-              </dl>
-              <dl class="b">
-                <dt class="a-a">対象</dt>
-                <dd class="b-b">全員</dd>
-              </dl>
-            </div>
-            <div class="left">
-              <img src="assets/img/left.png" width="10" height="10" class="leftimg">
-            </div>
-          </div>
-        </div>
-
-        <div class="cose-box">
-          <div class="cose-box-w">
-            <div class="cose-top">
-              <img src="assets/img/un.png" width="60" height="55" class="cose-img">
-              <div class="cose-title1">Unityゲームプログラミン<br>コース（2D・3D）</div>
-            </div>
-            <div class="detail">
-
-              <dl class="a">
-                <dt class="a-a">難易度</dt>
-                <dd class="b-b">★★★☆☆</dd>
-              </dl>
-              <dl class="b">
-                <dt class="a-a">対象</dt>
-                <dd class="b-b">全員</dd>
-              </dl>
-            </div>
-            <div class="left">
-              <img src="assets/img/left.png" width="10" height="10" class="leftimg">
-            </div>
-          </div>
-        </div>
-
-        <div class="cose-box">
-          <div class="cose-box-w">
-            <div class="cose-top">
-              <img src="assets/img/we.png" width="60" height="55" class="cose-img">
-              <div class="cose-title1">Webデザインコース<br>（HTML/CSS）</div>
-            </div>
-            <div class="detail">
-
-              <dl class="a">
-                <dt class="a-a">難易度</dt>
-                <dd class="b-b">★☆☆☆☆</dd>
-              </dl>
-              <dl class="b">
-                <dt class="a-a">対象</dt>
-                <dd class="b-b">全員</dd>
-              </dl>
-            </div>
-            <div class="left">
-              <img src="assets/img/left.png" width="10" height="10" class="leftimg">
-            </div>
-          </div>
-        </div>
-
-        <div class="cose-box">
-          <div class="cose-box-w">
-            <div class="cose-top">
-              <img src="assets/img/ru.png" width="60" height="55" class="cose-img">
-              <div class="cose-title1">Webサービスプログラ<br>ミングコース（Ruby）</div>
-            </div>
-            <div class="detail">
-
-              <dl class="a">
-                <dt class="a-a">難易度</dt>
-                <dd class="b-b">★★★★★</dd>
-              </dl>
-              <dl class="b">
-                <dt class="a-a">対象</dt>
-                <dd class="b-b">プログラミンに触<br>れたことがある方</dd>
+        <title>Portfolio responsive complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+              <div class = "heder-main">
                 
-              </dl>
-              <div class="left">
-                <img src="assets/img/left.png" width="10" height="10" class="leftimg">
+                  <div class = "heder-comp">
+                    <a class="heder-comp-a">中学生・高校生のためのIT・プログラミング教室・スクール</a>
+                    <img src ="assets/img/logo.jpg" width="246" height="47" class="mian_logo">
+                  </div>
+                  <div class="heder-info">
+                    <div class="heder-info-a">
+                      <ul class="heder-info-button">
+                        <li class="item">マイページ ログイン</li>
+                        <li class="item">お問い合わせ</li>
+                      </ul>
+                      <div class="heder-info-tele">
+                        <div class="tele">03-5877-4879</div>
+                        <a class="tele2">平日 10:00 〜 17:00</a>
+                      </div>
+                    </div>
+                    <div class="heder-button">
+                    <div class="box1">
+                      <div class="box1-1">
+                        <a>無料体験・説明会</a>
+                       
+                      </div>
+                    </div>
+                    <div class="box2">
+                      <div class="box2-2">
+                        <a>お申し込みはこちら</a>
+                      
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                
               </div>
+              <div class="heder-list">
+                <ul class="nav__list">
+                  <li class="nav__items">スクールについて</li>
+                  <li class="nav__item">コース</li>
+                  <li class="nav__item">会場・スケジュール</li>
+                  <li class="nav__item">お申し込みの流れ・料金</li>
+                  <li class="nav__item">卒業生の声</li>
+                  <li class="nav__item">参加者の声</li>
+                  <li class="nav__item">保護者の声</li>
+                  <li class="nav__item">スタッフ紹介</li>
+                  <li class="nav__item">よくある質問</li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+
+        <main class="l-main">
+            <!--===== MAIN =====-->
+           <div class="main-home">
+            <picture>
+              <source srcset="./assets/img/home.webp" media="(min-width: 767px)">
+              <source srcset="./assets/img/sp.webp" media="(max-width: 766px)">
+              <img src="./assets/sp.png" class="main-img">
+            </picture>
+           </div>
+           <div class="main-top-ms-txt">
+            <li class="li-1">Life is Tech! TOP</li>
+            <li class="li-1">プログラミング教室・スクール</li>
+            <li class="li-1">コース</li>
+           </div>
+           <div class="main-top-text">
+            <h1 class="main-top-text-h1">きみの好きを、スキルに。</h1>
+
+           </div>
+            
+            <!--===== COSE =====-->
+            <div class="main-cose">
+
             </div>
-          
-          </div>
-        </div>
 
-        <div class="cose-box">
-          <div class="cose-box-w">
-            <div class="cose-top">
-              <img src="assets/img/mm.png" width="60" height="55" class="cose-img">
-              <div class="cose-title1">映像制作コース</div>
-            </div>
-            <div class="detail">
+          </main>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-              <dl class="a">
-                <dt class="a-a">難易度</dt>
-                <dd class="b-b">★☆☆☆☆</dd>
-              </dl>
-              <dl class="b">
-                <dt class="a-a">対象</dt>
-                <dd class="b-b">全員</dd>
-              </dl>
-            </div>
-            <div class="left">
-              <img src="assets/img/left.png" width="10" height="10" class="leftimg">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
 
-  <footer>
-    <div class="fotter-main">    
-      
-      <div class="image-container">
-      <div class="image-container1">
-        <div class="image-overlay">
-          <ul class="fotter_list-item">
-            <li class="fotter__items">TOP</li>
-            <li class="fotter__items">ABOUT</li>
-            <li class="fotter__items">安全、緊急対策</li>
-            <li class="fotter__items">PCをお持込みの方へ</li>
-            <li class="fotter__items">個人情報保護方針</li>
-            <li class="fotter__items">個人情報の取り扱いについて</li>
-            <li class="fotter__items">標準旅行業約款</li>
-            <li class="fotter__items">メールマガジン登録</li>
-            <li class="fotter__items">お問い合わせ</li>
-            <li class="fotter__items">運営会社</li>
-          </ul>
-        </div>
-        <div class="fotter-title">Life is Tech, Inc</div>
-        <picture>
-            <source srcset="./assets/img/home.webp" type="image/webp">
-            <source srcset="./assets/img/sp.webp" type="image/webp">
-            <img src="./assets/sp.png" class="full-width-img">
-        </picture>
+        <script src="assets/js/logo.js"></script>
 
-      
-      </div>
-    </div>
-    </div>
-  </footer>
-
-  <!--===== SCROLL REVEAL =====-->
-  <script src="https://unpkg.com/scrollreveal"></script>
-
-  <!--===== MAIN JS =====-->
-  <script src="assets/js/main.js"></script>
-
-  <script src="assets/js/logo.js"></script>
-
-</body>
-
+    </body>
 </html>
