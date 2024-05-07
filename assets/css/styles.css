@@ -118,7 +118,7 @@
 .main-top-ms-txt{
     display: flex;
     position: absolute;
-    top: 200px;
+    top: 180px;
     left:0;
     padding:0;
     margin:0;
@@ -141,3 +141,144 @@
     font-size:25px;
     color: #fff;
 }
+/*===== COSE =====*/
+.main-cose{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 50px;
+}
+.cose-top{
+   display: flex;
+   height: 120px;
+   justify-content: center; /* 水平方向の中央揃え */
+   align-items: center; /* 垂直方向の中央揃え */
+}
+.cose-title{
+    font-size: 16px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.cose{
+    flex-wrap: wrap; /* 画面幅に合わせてカラム落ちさせる */
+    display: flex;
+   
+}
+.cose-title1{
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.cose-box{
+    width: 285px;
+    height: 213px;
+    border: 4px solid #eeeeee;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.detail{
+    display: flexs;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.a{
+    display: flex;
+    border: 1px solid #6e6e6e;  
+}
+.b{
+    border-left: 1px solid #6e6e6e;
+    border-right: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6e;
+    display: flex;
+   
+}
+.a-a{
+    background-color: #f0f0f0;
+    width: calc(90 / 281* 100%);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.b-b{
+    border-left: 1px solid #6e6e6e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.left{
+    text-align: right;
+}
+.leftimg{
+    padding: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.fotter-main{
+    max-height: 218px;
+}
+.fotter-img{
+    max-height: 200px;
+}
+.fotter-list{
+    display: flex;
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* 画面の幅いっぱいに広がる */
+    height: 200px; /* 高さは200pxに固定 */
+  }
+
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* 黒色で半透明の背景 */
+    z-index: 2; /* オーバーレイを前面に配置 */
+    display: flex;
+    justify-content: center; /* 中央に水平整列 */
+    align-items: center; /* 中央に垂直整列 */
+    color: white; /* テキストの色を白に設定 */
+    font-size: 13px; /* テキストのサイズ */
+  }
+
+
+  .full-width-img {
+    width: 100%; /* 画面の幅いっぱいに広がる */
+    height: 200px; /* 高さは200pxに固定 */
+    object-fit: cover; /* アスペクト比を保ちつつ、指定した領域にフィットさせる */
+    position: relative;
+    z-index: 1; /* 画像を背面に配置 */
+  }
+  .fotter_list-item{
+    display: flex;
+    padding-bottom: 40px;
+  }
+  .fotter__items{
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+  }
+  .fotter-title{
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; /* オーバーレイを前面に配置 */
+    display: flex;
+    justify-content: center; /* 中央に水平整列 */
+    color: white; /* テキストの色を白に設定 */
+    font-size: 13px; /* テキストのサイズ */
+
+  }
+  footer {
+    bottom: 0px;
+  }
